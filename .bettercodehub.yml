@@ -3,4 +3,3 @@ exclude:
 - /system/.*
 - /database/.*
 - /assets/.*
-- /application/config/.*
