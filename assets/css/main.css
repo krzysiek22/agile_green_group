@@ -3,3 +3,11 @@ body
 {
   padding-top: 2rem;
 }
+
+.BCHbadge
+{
+  position: absolute;
+
+  right: 5px;
+  bottom: 5px;
+}
