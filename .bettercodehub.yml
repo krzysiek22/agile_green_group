@@ -1,0 +1,6 @@
+exclude:
+- /user_guide/.*
+- /system/.*
+- /database/.*
+- /assets/.*
+- /application/config/.*
