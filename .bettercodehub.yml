@@ -7,4 +7,5 @@ exclude:
 - /database/.*
 - /assets/.*
 - /application/config/.*
+- /application/views/errors.*
 - /index\.php
