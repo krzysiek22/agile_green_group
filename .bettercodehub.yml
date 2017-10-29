@@ -8,4 +8,5 @@ exclude:
 - /assets/.*
 - /application/config/.*
 - /application/views/errors/.*
+- /application/views/.*
 - /index\.php
