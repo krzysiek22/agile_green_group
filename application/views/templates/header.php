@@ -53,11 +53,19 @@
           </li>
           -->
         </ul>
-        <!--
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-        -->
+
+        <?php
+          if( empty($_SESSION['is_logged']) || $_SESSION['is_logged'] === false )
+          {
+        ?>
+          <form class="form-inline my-2 my-lg-0" >
+            <input name="email" class="form-control mr-sm-2" type="email" placeholder="E-mail">
+            <input name="password" class="form-control mr-sm-2" type="password" placeholder="Password">
+            <button id="login" class="btn btn-outline-success my-2 my-sm-0" type="submit">Log in</button>
+          </form>
+          <button id="register" class="btn btn-outline-primary my-2 my-sm-0" style="margin-left: 10px;">Register</button>
+        <?php
+          }
+        ?>
       </div>
     </nav>
