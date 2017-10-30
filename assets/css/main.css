@@ -11,3 +11,15 @@ body
   right: 5px;
   bottom: 5px;
 }
+
+.container {
+  padding-top: 70px;
+}
+
+.table {
+  margin: 2rem 0;
+}
+
+.edit-user > input.form-control {
+  margin: 1rem 0;
+}
